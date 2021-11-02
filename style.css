@@ -7,7 +7,7 @@ body {
   background-color: LavenderBlush;
 }
 
-.title {
+title {
   color: black;
   font-family: 'Cookie', cursive;
   font-style: normal;
@@ -19,7 +19,7 @@ body {
 }
 
 /* Subheading */
-.h2 {
+h2 {
   font-family: 'Mouse Memoirs', sans-serif;
   text-align: center;
   font-style: normal;
@@ -30,7 +30,7 @@ body {
   margin: 0;
   color: black;
 }
-.p {
+p {
   font-family: 'Londrina Solid', cursive;
   text-align: center;
   font-style: normal;
@@ -47,7 +47,7 @@ body {
   font-size: 40px;
   text-align: center;
 }
-.button {
+button {
   border: 2px solid #008CBA;
   font-family: 'Neucha', cursive;
   color: black;
