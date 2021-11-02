@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Kristy Delacruz Website</title>
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script&family=Sacramento&display=swap"
+    rel="stylesheet"
+  />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&family=Neucha&display=swap" rel="stylesheet">
+  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amita&family=Londrina+Solid:wght@300&family=Neucha&display=swap" rel="stylesheet">
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amita&family=Antonio:wght@100&family=Londrina+Solid:wght@300&family=Mouse+Memoirs&family=Neucha&family=Sofia&display=swap" rel="stylesheet">
+  
+  
+  
+  
+  
+  
+  <h1 class="title">My Name is Kristy Delacruz </h1>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <button onclick="myFunction()">click me to figure out my favorite hobbies!</button>
+  <br>
+  <br>
+  <br>
+  <br>
+  <p id="demo"></p>
+
+  <!-- Instructions on using this project -->
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+     
+     <h2> Current Time: <span id="clock"></span>
+  </h2>
+  
+  <script> 
+  function currentTime() {
+  var date = new Date(); /* creating object of Date class */
+  var hour = date.getHours();
+  var min = date.getMinutes();
+  var sec = date.getSeconds();
+  var midday = "AM";
+  midday = hour >= 12 ? "PM" : "AM"; /* assigning AM/PM */
+  hour =
+    hour == 0
+      ? 12
+      : hour > 12
+      ? hour - 12
+      : hour; /* assigning hour in 12-hour format */
+  hour = updateTime(hour);
+  min = updateTime(min);
+  sec = updateTime(sec);
+  document.getElementById("clock").innerText =
+    hour +
+    " : " +
+    min +
+    " : " +
+    sec +
+    " " +
+    midday; /* adding time to the div */
+  var t = setTimeout(currentTime, 1000); /* setting timer */
+}
+
+function updateTime(k) {
+  /* appending 0 before time elements if less than 10 */
+  if (k < 10) {
+    return "0" + k;
+  } else {
+    return k;
+  }
+}
+
+currentTime();
+
+function myFunction() {
+  
+        document.getElementById("demo").innerHTML = "My favorite hobbies are playing simulation video games and traveling the world. I enjoy playing Animal Crossing and The Sims 4. I've also recently visited Mexico and Ecuador.";
+}
+  </script>
+  
+  
+</html>
