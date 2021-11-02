@@ -1,0 +1,102 @@
+:root {
+  --color-bg: #B2BEB5;
+  --color-text-main: #000000;
+  --color-primary: #000000;
+  --wrapper-height: 87vh;
+  --image-max-width: 300px;
+  --image-margin: 3rem;
+}
+
+/* Basic page style resets */
+* {
+  box-sizing: border-box;
+}
+[hidden] {
+  display: none !important;
+}
+
+body {
+  font-family: Sunny Spells;
+  background-color: var(--color-bg);
+}
+
+/* Page structure */
+.wrapper {
+  min-height: var(--wrapper-height);
+  display: grid;
+  place-items: center;
+  margin: 0 1rem;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Very light scaling for our illustration */
+.title {
+  color: #000000;
+  font-family: 'Cookie', cursive;
+  font-style: normal;
+  font-weight: 50;
+  text-align: center;
+  font-size: 100px;
+  line-height: 105%;
+  margin: 0;
+}
+
+/* Very light scaling for our illustration */
+.illustration {
+  max-width: 100%;
+  max-height: var(--image-max-width);
+  margin-top: var(--image-margin);
+}
+
+/* Subheading */
+h2 {
+  font-family: 'Mouse Memoirs', sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 10;
+  text-align: center;
+  font-size: 40px;
+  line-height: 105%;
+  margin: 0;
+  color: #190002FF;
+}
+p {
+  font-family: 'Londrina Solid', cursive;
+  text-align: center;
+  font-style: normal;
+  font-weight: 10;
+  text-align: left;
+  font-size: 30px;
+  line-height: 105%;
+  margin: 0;
+  color: #28282B;
+}
+
+#clock {
+  font-family: 'Mouse Memoirs', sans-serif;
+  color: #000000;
+  font-size: 40px;
+  text-align: center;
+}
+button {
+  border: 2px solid #008CBA;
+  font-family: 'Neucha', cursive;
+  color: black;
+  padding: 46px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+    margin: -0px -200px; 
+    position:relative;
+    top:70%; 
+    left:50%;
+}
