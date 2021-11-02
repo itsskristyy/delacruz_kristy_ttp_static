@@ -1,46 +1,25 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Amita&family=Antonio:wght@100&family=Give+You+Glory&family=Londrina+Solid:wght@300&family=Mouse+Memoirs&family=Neucha&family=Sofia&display=swap');
-
-body {
+body{
   width: 100%;
   height: 100%;
-  margin: 0;
-  background-color: LavenderBlush;
+  background-color: rgba(50, 115, 220, 0.3);
+  
 }
 
-title {
-  color: black;
-  font-family: 'Cookie', cursive;
-  font-style: normal;
-  font-weight: 50;
-  text-align: center;
-  font-size: 100px;
-  line-height: 105%;
+h1 {
+  padding: 0;
   margin: 0;
+  text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
 
-/* Subheading */
-h2 {
-  font-family: 'Mouse Memoirs', sans-serif;
-  text-align: center;
-  font-style: normal;
-  font-weight: 10;
-  text-align: center;
-  font-size: 40px;
-  line-height: 105%;
-  margin: 0;
-  color: black;
+h1 {
+  color: white;
+  font-family: cursive;
+  letter-spacing: 5px;
 }
-p {
-  font-family: 'Londrina Solid', cursive;
-  text-align: center;
-  font-style: normal;
-  font-weight: 10;
-  text-align: left;
-  font-size: 30px;
-  line-height: 105%;
-  margin: 0;
-  color: grey;
 }
 #clock {
   font-family: 'Mouse Memoirs', sans-serif;
