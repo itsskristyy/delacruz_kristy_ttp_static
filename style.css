@@ -9,24 +9,17 @@ h1 {
   font-family: 'Cookie', cursive;
   text-align: center;
   font-style: normal;
-  font-weight: 10;
-  
-  font-size: 80px;
+  font-size: 130px;
   line-height: 105%;
-  margin: 0;
+ 
   color: white;
 }
 
 h2 {
-  font-family: 'Mouse Memoirs', sans-serif;
-  text-align: center;
-  font-style: normal;
-  font-weight: 10;
-  
-  font-size: 80px;
-  line-height: 105%;
-  margin: 0;
+ font-family: 'Mouse Memoirs', sans-serif;
   color: #28282B;
+  font-size: 40px;
+  text-align: center;
 }
 
 
