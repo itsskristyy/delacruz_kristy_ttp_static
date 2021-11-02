@@ -16,11 +16,11 @@ h1 {
 }
 
 h1 {
-  color: white;
+  color: black;
   font-family: cursive;
   letter-spacing: 5px;
 }
-}
+
 #clock {
   font-family: 'Mouse Memoirs', sans-serif;
   color: black;
